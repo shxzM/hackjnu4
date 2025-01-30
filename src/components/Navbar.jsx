@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "../styles/Navbar.css";
-import logo from '../assets/logo.png'
+import logo from '../assets/logo1.png'
 
 const Navbar = (props) => {
   return (

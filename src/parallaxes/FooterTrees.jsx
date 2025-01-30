@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import { Parallax } from "react-scroll-parallax";
 
-import FrontTree from "../assets/FrontTree.svg";
-import LeftTree from "../assets/LeftTree.svg";
-import BackRightTree from "../assets/BackRightTree.svg";
+import FrontTree from "../assets/FrontTree1.svg";
+import LeftTree from "../assets/LeftTree1.svg";
+import BackRightTree from "../assets/BackRightTree1.svg";
 
 const FooterTrees = (props) => {
   return (
