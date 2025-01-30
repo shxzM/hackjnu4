@@ -7,7 +7,7 @@ import MountainsLayer2 from "../img/frame4.svg";
 import MountainsLayer3 from "../img/frame3.svg";
 import MountainsLayer4 from "../img/frame5.svg";
 import MountainsLayer5 from "../img/frame6.svg";
-import MountainsLayer6 from "../img/hj4.svg";
+import MountainsLayer6 from "../img/hj41.svg";
 import MountainsLayer7 from "../img/frame7.svg";
 import MountainsLayer8 from "../img/frame8.svg";
 import MountainsLayer9 from "../img/frame9.svg";
