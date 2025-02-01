@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Parallax } from "react-scroll-parallax";
 
-import FooterImg from "../assets/FooterImg.svg";
+import FooterImg from "../assets/FooterImg1.svg";
 
 const FooterParallax = (props) => {
   return (
