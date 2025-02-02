@@ -20,7 +20,7 @@ const TimelineComponent = () => {
             <div className="TimeLineContent right">
               <div className="TLDate">
                 <p>
-                  <span>1st</span>
+                  <span>3rd</span>
                   <br />
                   Feb
                 </p>

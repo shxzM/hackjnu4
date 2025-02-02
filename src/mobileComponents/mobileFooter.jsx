@@ -9,10 +9,10 @@ const MobileFooter = () => {
       <div className="FooterContent ">
         <div className="FootTitle">Follow us for more at:</div>
         <div className="icons mb-8 mt-4">
-          <a href="https://github.com/tushar-c23/hack-jnu-3-web" alt="Hack JNU 3.0 Github Repository">
+          <a href="https://github.com/shxzM/hackjnu4" alt="Hack JNU 4.0 Github Repository">
             <GitHubIcon />
           </a>
-          <a href="https://www.instagram.com/hackjnu3.0" alt="@hackjnu3.0 on Instagram">
+          <a href="https://www.instagram.com/hackjnu4.0" alt="@hackjnu4.0 on Instagram">
             <InstagramIcon />
           </a>
           <a href="https://twitter.com/hackjnu3" alt="@hackjnu3 on X(Twitter)">
@@ -26,7 +26,7 @@ const MobileFooter = () => {
           {/* Know More about the <a href="#">team behind HackJNU</a> */}
           Reach out to us at:
           <br />
-           <a href="mailto:contactus@hackjnu.tech">contactus@hackjnu.tech</a>
+           <a href="mailto:contactus@hackjnu.tech">contactus@hackjnu4.tech</a>
         </p>
       </div>
     </div>
