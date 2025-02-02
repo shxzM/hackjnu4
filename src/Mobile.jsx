@@ -14,7 +14,7 @@ const Mobile = () => {
   const [touchEnd, setTouchEnd] = useState(null);
   const BoxRef=useRef();
   const [page, setPage] = useState(0);
-  const sections = ['MobileHome', 'MobileAbout', 'MobileTimeline', 'MobilePrizes', 'MobileFAQ', 'MobileFooter'] //Add Mobile Sponsors
+  const sections = ['MobileHome', 'MobileAbout', 'MobileTimeline', 'MobilePrizes', 'MobileSponsors', 'MobileFAQ', 'MobileFooter'] //Add Mobile Sponsors
   // the required distance between touchStart and touchEnd to be detected as a swipe
   const minSwipeDistance = 50;
 
@@ -68,9 +68,9 @@ const Mobile = () => {
         {page == 1 && <MobileAbout />}
         {page == 2 && <MobileTimeline />}
         {page == 3 && <MobilePrizes />}
-        {/* {page == 4 && <MobileSponsors />} */}
-        {page == 4 && <MobileFAQ />}
-        {page == 5 && <MobileFooter />}
+        {page == 4 && <MobileSponsors />}
+        {page == 5 && <MobileFAQ />}
+        {page == 6 && <MobileFooter />}
       </div>
     </div>
   );

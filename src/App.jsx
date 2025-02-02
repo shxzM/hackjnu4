@@ -82,7 +82,7 @@ function App() {
     NavObserver.observe(LandingRef.current)
     HeadingObserver.observe(AboutRef.current)
     HeadingObserver.observe(TimelineRef.current)
-    // HeadingObserver.observe(SponsorsRef.current)
+    HeadingObserver.observe(SponsorsRef.current)
     HeadingObserver.observe(PrizesRef.current)
     HeadingObserver.observe(FAQRef.current)
 
@@ -110,8 +110,8 @@ function App() {
       setHeadingNumber(1)
     else if (entries[0].target.id === "Prizes")
       setHeadingNumber(2)
-   // else if (entries[0].target.id === "Sponsors")
-     // setHeadingNumber(3)
+   else if (entries[0].target.id === "Sponsors")
+     setHeadingNumber(3)
     else if (entries[0].target.id === "FAQ")
       setHeadingNumber(4)
   }
@@ -153,9 +153,9 @@ function App() {
         </section>
         
         <div className="h-[10vh]"></div>
-        {/*<section className="Sponsors pages1" ref={SponsorsRef} id="Sponsors">
+        <section className="Sponsors pages1" ref={SponsorsRef} id="Sponsors">
           <Sponsors></Sponsors>
-        </section> */}
+        </section> 
         {/* <div className="SpaceFiller"></div> */}
         <section className="ParallaxStarter FooterTrees">
           <div className="ParallaxDiv">

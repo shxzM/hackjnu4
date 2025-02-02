@@ -43,7 +43,7 @@ const AboutHackJNU = () => {
                   <div className="DevfolioButton">
                     <div
                       className="apply-button"
-                      data-hackathon-slug="hackjnu-3"
+                      data-hackathon-slug="hackjnu-4"
                       data-button-theme="dark"
                       style={{ height: "44px", width: "312px" }}
                     >

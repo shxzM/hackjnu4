@@ -1,6 +1,7 @@
 // import GoogleLogo from "../assets/GoogleLogo.png";
 import DevFolioLogo from "../assets/SponsorLogos/Devfolio_Logo-White.png";
 import PolygonLogo from "../assets/SponsorLogos/Polygon_Logo-White.png";
+import EthIndiaLogo from "../assets/SponsorLogos/ethindia-light.png";
 import ReplitLogo from "../assets/SponsorLogos/Replit-Dark-Background.png";
 import JDoodleLogo from "../assets/SponsorLogos/JDoodle.png";
 import AbilityConnectLogo from "../assets/SponsorLogos/AbilityConnectLogo.png";
@@ -11,13 +12,13 @@ const Sponsors = () => {
     <div className="SponsorsBox ">
       <div className="SponsorsText">A Special Thanks to:</div>
       <div className="SponsorsLogos animatedContent flex justify-center items-center">
-        <div className="company Title">
+        {/* <div className="company Title">
         <div className="companyLogo Bobble Title">
             <a href="https://fanstore.bobble.ai/">
               <img src={BobbleLogo} alt="Bobble LOGO" />
             </a>
           </div>
-          </div>
+        </div> */}
         <div className="SponsorBreak" />
         <div className="company Gold">
           <div className="companyLogo DevFolio Gold">
@@ -33,8 +34,15 @@ const Sponsors = () => {
             </a>
           </div>
         </div>
+        <div className="company Gold">
+          <div className="companyLogo EthIndia Gold">
+            <a href="https://ethindia.co/">
+              <img src={EthIndiaLogo} alt="ETHINDIA LOGO" />
+            </a>
+          </div>
+        </div>
         <div className="SponsorBreak" />
-        <div className="company Silver">
+        {/* <div className="company Silver">
           <div className="companyLogo Replit Silver">
             <a href="https://replit.com/">
               <img src={ReplitLogo} alt="REPLIT LOGO" />
@@ -55,7 +63,7 @@ const Sponsors = () => {
               <img src={AbilityConnectLogo} alt="Ability Connect LOGO" />
             </a>
           </div>
-        </div>
+        </div> */}
         {/* <div className="company">
                 <div className="companyLogo">
                     <img src={GoogleLogo} alt="Google.co" />
@@ -73,7 +81,7 @@ const Sponsors = () => {
           </p>
           <p>
             Have a question? Ask Us!{" "}
-            <a href="mailto:sponsor@hackjnu.tech">sponsor@hackjnu.tech</a>
+            <a href="mailto:sponsors@hackjnu4.tech">sponsors@hackjnu4.tech</a>
           </p>
         </div>
       </div>

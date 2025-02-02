@@ -1,6 +1,7 @@
 import FrontTree from "../assets/MobileAssets/mobileFooterTree.svg";
 import DevFolioLogo from "../assets/SponsorLogos/Devfolio_Logo-White.png";
 import PolygonLogo from "../assets/SponsorLogos/Polygon_Logo-White.png";
+import EthIndiaLogo from "../assets/SponsorLogos/ethindia-light.png";
 import ReplitLogo from "../assets/SponsorLogos/Replit-Dark-Background.png";
 import JDoodleLogo from "../assets/SponsorLogos/JDoodle.png";
 import AbilityConnectLogo from "../assets/SponsorLogos/AbilityConnectLogo.png";
@@ -14,14 +15,14 @@ const MobileSponsors = () => {
       <div className="MobileSponsorsText">A Special Thanks to:</div>
       <div className="MobileSponsorsLogos flex justify-center items-center">
         {/* <h1 className="MobileSponsorsProxyText">* Sponsors to be revealed soon*</h1> */}
-        <div className="company Title">
+        {/* <div className="company Title">
         <div className="companyLogo Bobble Title">
             <a href="https://fanstore.bobble.ai/">
               <img src={BobbleLogo} alt="Bobble LOGO" />
             </a>
           </div>
-          </div>
-        <div className="SponsorBreak" />
+        </div> */}
+        {/* <div className="SponsorBreak" /> */}
         <div className="company Gold">
           <div className="companyLogo DevFolio Gold">
             <a href="https://devfolio.co/">
@@ -36,8 +37,15 @@ const MobileSponsors = () => {
             </a>
           </div>
         </div>
+        <div className="company Gold">
+            <div className="companyLogo EthIndia Gold">
+                    <a href="https://ethindia.co/">
+                      <img src={EthIndiaLogo} alt="ETHINDIA LOGO" />
+                    </a>
+            </div>
+          </div>
         <div className="SponsorBreak" />
-        <div className="company Silver">
+        {/* <div className="company Silver">
           <div className="companyLogo Replit Silver">
             <a href="https://replit.com/">
               <img src={ReplitLogo} alt="REPLIT LOGO" />
@@ -59,7 +67,7 @@ const MobileSponsors = () => {
               <img src={AbilityConnectLogo} alt="AbilityConnect LOGO" />
             </a>
           </div>
-        </div>
+        </div> */}
         <div className="MobileSponsorsApply">
           <p>
             You can be here too!{" "}
@@ -69,7 +77,7 @@ const MobileSponsors = () => {
           </p>
           <p>
             Have a question? Ask Us!{" "}
-            <a href="mailto:sponsor@hackjnu.tech">sponsor@hackjnu.tech</a>
+            <a href="mailto:sponsors@hackjnu4.tech">sponsors@hackjnu4.tech</a>
           </p>
         </div>
       </div>
