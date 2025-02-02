@@ -75,7 +75,7 @@ const Sponsors = () => {
         <div className="SponsorsApply">
           <p>
             You can be here too!{" "}
-            <a href="https://drive.google.com/file/d/1xJXNT_By-lZD2uKvHYCqHqeqD6fF3CNM/view">
+            <a href="https://drive.google.com/file/d/12voWa9R76x_q-_r88_V4rth3_7KDFHKD/view?usp=sharing">
               Learn More
             </a>
           </p>
