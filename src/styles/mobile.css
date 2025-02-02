@@ -12,25 +12,25 @@
     overflow: hidden;
 }
 .MobileApp.page0{
-    background-color: #624a7dff;
+    background-color: rgb(0, 166, 255);
 }
 .MobileApp.page1{
-    background-color: #5b4477ff;
+    background-color: rgb(0, 166, 255);
 }
 .MobileApp.page2{
-    background-color: #50396dff;
+    background-color: rgb(0, 123, 190);
 }
 .MobileApp.page3{
-    background-color: #452e63ff;
+    background-color: rgb(0, 166, 255);
 }
 .MobileApp.page4{
-    background-color: #3c245bff;
+    background-color: rgb(0, 166, 255);
 }
 .MobileApp.page5{
-    background-color: rgb(38, 23, 58);
+    background-color: rgb(0, 166, 255);
 }
 .MobileApp.page6{
-    background-color: rgb(27, 16, 41);
+    background-color: rgb(0, 56, 86);
 }
 
 .background , .background img{
@@ -454,7 +454,7 @@
     padding: 3px;
 }
 .MobileFaqBoard .question{
-    color: var(--base-pink-light);
+    color: var(--base-white-light);
     display: flex;
     justify-content: space-between;
     align-items: center;

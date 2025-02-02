@@ -1,6 +1,6 @@
 import Trophy from "../assets/trophy.svg";
 import Trophy1 from "../assets/trophy1.svg";
-import FrontTree from '../assets/MobileAssets/mobileFooterTree.svg'
+import FrontTree from '../assets/MobileAssets/mobileFooterTree1.svg'
 const MobilePrizes = () => {
   return (
     <div className="MobilePrizes" id="MobilePrizes">

@@ -1,7 +1,7 @@
 import { faqlist } from "../components/faq";
 import { useState } from "react";
 
-import FrontTree from '../assets/MobileAssets/mobileFooterTree.svg'
+import FrontTree from '../assets/MobileAssets/mobileFooterTree1.svg'
 
 
 const MobileFAQ = () => {

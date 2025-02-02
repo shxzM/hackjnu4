@@ -13,7 +13,7 @@ const MobileAbout = () => {
           </div>
           <div className="AboutBox-content">
             HackJNU is a hackathon arranged by one of the top universities in
-            India , The Jawaharlal Nehru University
+            India, The Jawaharlal Nehru University
           </div>
         </div>
         <div className="Box inRight">

@@ -1,12 +1,12 @@
-import Layer1 from "../assets/MobileAssets/Layer1.svg";
-import Layer2 from "../assets/MobileAssets/Layer2.svg";
-import Layer3 from "../assets/MobileAssets/Layer3.svg";
-import Layer4 from "../assets/MobileAssets/Layer4.svg";
-import Layer5 from "../assets/MobileAssets/Layer5.svg";
-import Layer6 from "../assets/MobileAssets/Layer6.svg";
-import Layer7 from "../assets/MobileAssets/Layer7.svg";
+import Layer1 from "../assets/MobileAssets/Layer11.svg";
+import Layer2 from "../assets/MobileAssets/Layer21.svg";
+import Layer3 from "../assets/MobileAssets/Layer31.svg";
+import Layer4 from "../assets/MobileAssets/Layer41.svg";
+import Layer5 from "../assets/MobileAssets/Layer51.svg";
+import Layer6 from "../assets/MobileAssets/Layer61.svg";
+import Layer7 from "../assets/MobileAssets/Layer71.svg";
 
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo1.png'
 import Countdown from "../components/Countdown";
 
 const MobileHome = () => {
