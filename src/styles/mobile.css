@@ -277,6 +277,7 @@
 
 .MobilePrizes{
     width: 100%;
+    background: linear-gradient( to right , #00000031 , #00000046,#00000044 , #00000031);
     height: 100vh;
     padding: 50px 10px;
     font-family: var(--fantasy-font);
@@ -308,7 +309,8 @@
     padding: 5px 15px;
     margin: 10px 25px;
     border-radius: 10px;
-    background-color: var(--base-blue-light);
+    /*background-color: var(--base-blue-light);*/
+    background-color:rgba(79, 154, 216, 0.897);
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -454,29 +456,37 @@
     padding: 3px;
 }
 .MobileFaqBoard .question{
-    color: var(--base-white-light);
+    color: #308bd5;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    border-bottom: 1px solid var(--base-pink-lighter);
+    border-bottom: 1px solid rgba(255, 0, 0, 0);
     font-size: var(--font-size-heavy);
+    text-shadow: 0px 0px 5px #001F3F;
+    backdrop-filter: blur(1px); /* Adjust blur intensity */
+    -webkit-backdrop-filter: blur(5px); /* For Safari */
+
 }
 
 .MobileFaqBoard .answer {
-    color: var(--base-pink-lighter);
+    color: white;
     max-height: 0;
     overflow: hidden;
     font-size: var(--font-size-normal);
-    transition: all 0.7s cubic-bezier(0, 1, 0, 1);
+    border-radius: 5px;
+    backdrop-filter: blur(1px); /* Adjust blur intensity */
+    -webkit-backdrop-filter: blur(5px); /* For Safari */
 }
 
 .MobileFaqBoard .answer.show{
+    color: white;
     font-size: var(--font-size-normal);
-    color: var(--base-pink-lighter);
     height: auto;
     max-height: 300px;
-    transition: all 0.7s cubic-bezier(0, 1, 0, 1);
+    padding: 10px 0;
+    text-shadow: 0px 0px 5px #001F3F;
+    border-radius: 5px;
 }
 .MobileFaqBoard .query{
     transform: translateY(400px);

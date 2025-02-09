@@ -1,5 +1,6 @@
 import Trophy from '../assets/trophy.svg'
 import Trophy1 from '../assets/trophy1.svg'
+import Trophy2 from '../assets/trophy2.svg'
 
 const Prizes = () => {
   return (
@@ -15,7 +16,7 @@ const Prizes = () => {
             <h1 className="tip">2nd</h1>
           </div>
           <div className="trophy">
-            <img src={Trophy} alt="Trophy" />
+            <img src={Trophy1} alt="Trophy" />
           </div>
           <div className="reward">
             <p className="second-text">Exciting Cash Prize and more!</p>
@@ -26,7 +27,7 @@ const Prizes = () => {
             <h1 className="tip">1st</h1>
           </div>
           <div className="trophy">
-            <img src={Trophy1} alt="Trophy" />
+            <img src={Trophy} alt="Trophy" />
           </div>
           <div className="reward">
             <p className="second-text">Exciting Cash Prize and more!</p>
@@ -37,7 +38,7 @@ const Prizes = () => {
             <h1 className="tip">3rd</h1>
           </div>
           <div className="trophy">
-            <img src={Trophy} alt="Trophy" />
+            <img src={Trophy2} alt="Trophy" />
           </div>
           <div className="reward">
             <p className="second-text">Exciting Cash Prize and more!</p>

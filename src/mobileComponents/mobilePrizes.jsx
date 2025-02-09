@@ -1,5 +1,6 @@
 import Trophy from "../assets/trophy.svg";
 import Trophy1 from "../assets/trophy1.svg";
+import Trophy2 from "../assets/trophy2.svg";
 import FrontTree from '../assets/MobileAssets/mobileFooterTree1.svg'
 const MobilePrizes = () => {
   return (
@@ -34,7 +35,7 @@ const MobilePrizes = () => {
             <h3 className="SubText">Exciting Cash Prizes !</h3>
             </div>
             <div className="TrophyImgDiv">
-            <img className="trophyImg" src={Trophy1} alt="Trophy" />
+            <img className="trophyImg" src={Trophy2} alt="Trophy" />
             </div>
           </div>
         </div>
